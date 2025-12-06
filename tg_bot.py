@@ -68,7 +68,7 @@ def update_talaba():
 
     for t in talabalar:
         if t.get_ism().lower()==ism.lower():
-            yangi_yosh=int(input("Ynagi yosh:"))
+            yangi_yosh=int(input("Yanagi yosh:"))
             yangi_kurs=int(input("Yangi kurs:"))
             t.set_yosh(yangi_yosh)
             t.set_kurs(yangi_kurs)
