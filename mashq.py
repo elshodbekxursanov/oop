@@ -15,3 +15,4 @@ class Student(Universitet):
 
 uquvchi=Student(12,'Elshodbek',16)
 print(uquvchi.get_info())
+print('salom')
